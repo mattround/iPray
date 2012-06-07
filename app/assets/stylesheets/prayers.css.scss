@@ -1,3 +1,28 @@
 // Place all the styles related to the Prayers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.prayers {
+  p, h1 {
+    font-family: "Comic Sans MS";
+  }
+  
+  h1 {
+    font-size: 36pt;
+  }
+  
+  .title {
+    font-family: "Comic Sans MS";
+    background-color: #d9ffd9;
+	padding: 7px;
+	margin: 0px;
+	border: 1px solid grey;
+	font-size: 18pt;
+  }
+  
+  .request {
+    background-color: #ffffd9;
+    border: 1px solid black;
+	margin: 0px;
+	padding: 3px;
+  }
+}
