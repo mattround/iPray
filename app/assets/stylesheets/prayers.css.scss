@@ -9,20 +9,20 @@
   h1 {
     font-size: 36pt;
   }
-  
+
+  .card {
+    border: 1px solid grey;
+    border-radius: 20px 8px;
+    width: 500px;
+    background-color: #d9e9d9;
+  }
+
   .title {
-    font-family: "Comic Sans MS";
-    background-color: #d9ffd9;
-	padding: 7px;
-	margin: 0px;
-	border: 1px solid grey;
+	border-bottom: 1px solid black;
 	font-size: 18pt;
   }
   
   .request {
     background-color: #ffffd9;
-    border: 1px solid black;
-	margin: 0px;
-	padding: 3px;
   }
 }
