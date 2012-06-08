@@ -12,17 +12,35 @@
 
   .card {
     border: 1px solid grey;
-    border-radius: 20px 8px;
+    border-radius: 20px;
     width: 500px;
-    background-color: #d9e9d9;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #ffffe0;
   }
 
   .title {
 	border-bottom: 1px solid black;
+	margin-bottom: 0px;
 	font-size: 18pt;
+	padding: 5px;
   }
   
   .request {
-    background-color: #ffffd9;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #fff0d0;
+    padding: 10px;
+  }
+
+  .by {
+    border-top: 1px dashed grey;
+    margin-top: 0px;
+    text-align: right;
+  }
+
+  .controls {
+    font-size: 8pt;
+    text-align: right;
   }
 }

@@ -4,14 +4,13 @@
 <div class="card">
   <p class="title"><%= prayer.title %></p>
   <p class="request"><%= prayer.request %></p>
-  <p class="by"><%= prayer.by %></p>
+  <p class="by">by <em><%= prayer.by %></em></p>
   <% if !prayer.answer.nil? %>
     <p class="answer"><%= prayer.answer %></p>
   <% end %>
-  <p class="controls" align=right>
-    <%= link_to 'Show', prayer %> |
+  <p class="controls">
     <%= link_to 'Edit', edit_prayer_path(prayer) %> |
-    <%= link_to 'Destroy', prayer, confirm: 'Are you sure?', method: :delete %>
+    <%= link_to 'Delete', prayer, confirm: 'Are you sure?', method: :delete %>
   </p>
 </div>
 <% end %>
